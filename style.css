@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Raleway",sans-serif;
+  src: local("Raleway"),
+    url("fonts\Raleway\static\Raleway-ExtraLightItalic.ttf") format("ttf");
+}
+.body {
+  background-color: rgb(0, 0, 0);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #dc003b;
+  min-height: 760px;
+  width: 660px;
+}
+
+.main-position {
+  margin: 50px auto;
+  padding-top: 60px;
+}
+
+.input {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  display: block;
+  align-self: center;
+  max-width: 500px;
+  height: 60px;
+  font-weight: 400;
+  line-height: 56px;
+  border: none;
+  outline: none;
+  background-color: greenyellow;
+}
+
+
+.selection {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 400;
+  margin: auto;
+  width: 500px;
+  min-height: 45px;
+  background-color: #693dda;
+  border: 2px solid rgb(3, 80, 139);
+  cursor: pointer;
+}
+
+.selection:hover{
+  background-color: #15a0db;
+}
+
+.result-position{
+  padding-top: 60px;
+  margin-top: auto;
+  margin-bottom: 60px;
+}
+
+.result-selection {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  margin: auto;
+  width: 470px;
+  min-height: 84px;
+  border: 1px solid #000;
+  background-color: #ecd017;
+  border: 1px solid black;
+  padding: 7px 14px;
+}
+
+.button-close {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 46px;
+  height: 42px;
+  border: none;
+  background-color: transparent; 
+  background-image: 
+    url("../img/Vector7.svg"),
+    url("../img/Vector8.svg");
+  cursor: pointer;
+}
+.search{
+  color: rgb(111, 1, 112);
+  text-align: center;
+}
